@@ -6,14 +6,14 @@ html {
 }
 
 header {
-    background-color: gray;
+    background-color: darkgray;
     margin: 0;
     padding: 0;
     height: 100px;
 }
 
 body {
-    background: white;
+    background: gray;
     margin: 0;
     padding: 0;
 }
@@ -64,4 +64,16 @@ div {
 
 nav {
     margin: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      background-color: rgb(100, 100, 100);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+      background-color: rgb(80, 80, 80);
+    }
 }
