@@ -60,7 +60,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 0px;
 }
 
 .thumbnail-image {
@@ -103,13 +103,41 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+
+    .top {
+        width: 480px;
+    }
+
+    .middle {
+        width: 480px;
+    }
+
     body {
       background-color: rgb(100, 100, 100);
     }
+
+    .bottom {
+        width: 480px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
-    body {
-      background-color: rgb(80, 80, 80);
+
+    .top {
+        width: 350px;
     }
+
+    .middle {
+        width: 350px;
+    }
+
+    body {
+        background-color: rgb(80, 80, 80);
+    }
+
+    .bottom {
+        width: 350px;
+    }
+
 }
