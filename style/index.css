@@ -1,15 +1,41 @@
 html {
     background: gray;
+    color: white;
+    font-size: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.top {
+    width: 780px;
+    margin: 0 auto;
 }
 
 header {
     background-color: darkgray;
     margin: 0;
     padding: 0;
-    height: 100px;
+    height: 140px;
+}
+
+nav {
+    margin: 5px;
+}
+
+.nav-button {
+    color: white;
+    padding: 3px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.middle {
+    width: 780px;
+    margin: 0 auto;
 }
 
 body {
@@ -18,19 +44,47 @@ body {
     padding: 0;
 }
 
-.top {
-    width: 600px;
-    margin: 0 auto;
+.profile-image {
+    width: 100px;
+    border-radius: 100%;
+    margin: 10px;
 }
 
-.middle {
-    width: 600px;
-    margin: 0 auto;
+.title {
+    display: flex;
+    flex-direction: column;
 }
 
-.bottom {
-    width: 600px;
-    margin: 0 auto;
+.thumbnails {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.thumbnail-image {
+    width: 139px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    padding: 10px 10px 0px;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 0px 10px 10px;
+}
+
+div {
+    margin: 5px;
 }
 
 footer {
@@ -39,31 +93,13 @@ footer {
     padding: 0;
 }
 
-.container2 img {
-    width: 139px;
-    height: 100px;
+.bottom {
+    width: 780px;
+    margin: 0 auto;
 }
 
-img {
-    margin: 5px;
-}
-
-h1 {
-    color: white;
-    margin: 5px;
-    padding: 10px 0 10px;
-}
-
-h2 {
-    margin: 5px;
-}
-
-div {
-    margin: 5px;
-}
-
-nav {
-    margin: 5px;
+.bottom-buttons {
+    display: flex;
 }
 
 @media screen and (max-width: 800px) {
