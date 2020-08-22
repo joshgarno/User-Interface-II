@@ -1,143 +1,140 @@
 html {
-    background: gray;
-    color: white;
-    font-size: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background: gray;
+  color: white;
+  font-size: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .top {
-    width: 780px;
-    margin: 0 auto;
+  width: 780px;
+  margin: 0 auto;
 }
 
 header {
-    background-color: darkgray;
-    margin: 0;
-    padding: 0;
-    height: 140px;
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+  height: 140px;
 }
 
 nav {
-    margin: 5px;
+  margin: 5px;
 }
 
 .nav-button {
-    color: white;
-    padding: 3px 10px;
-    border: 2px solid black;
-    border-radius: 5px;
-    border-color: white;
-    text-decoration: none;
-    margin: 10px;
+  color: white;
+  padding: 3px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  border-color: white;
+  text-decoration: none;
+  margin: 10px;
 }
 
 .middle {
-    width: 780px;
-    margin: 0 auto;
+  width: 780px;
+  margin: 0 auto;
 }
 
 body {
-    background: gray;
-    margin: 0;
-    padding: 0;
+  background: gray;
+  margin: 0;
+  padding: 0;
 }
 
 .profile-image {
-    width: 100px;
-    border-radius: 100%;
-    margin: 10px;
+  width: 100px;
+  border-radius: 100%;
+  margin: 10px;
 }
 
 .title {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .thumbnails {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
 }
 
 .thumbnail-image {
-    width: 139px;
-    height: 100px;
-    margin: 5px;
-    border-radius: 8px;
+  width: 139px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 8px;
 }
 
 h1 {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 5px;
-    padding: 10px 10px 0px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+  padding: 10px 10px 0px;
 }
 
 h2 {
-    font-size: 1rem;
-    margin: 5px;
-    padding: 0px 10px 10px;
+  font-size: 1rem;
+  margin: 5px;
+  padding: 0px 10px 10px;
 }
 
 div {
-    margin: 5px;
+  margin: 5px;
 }
 
 footer {
-    background-color: gray;
-    margin: 0;
-    padding: 0;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
 }
 
 .bottom {
-    width: 780px;
-    margin: 0 auto;
+  width: 780px;
+  margin: 0 auto;
 }
 
 .bottom-buttons {
-    display: flex;
+  display: flex;
 }
 
 @media screen and (max-width: 800px) {
+  .top {
+    width: 480px;
+  }
 
-    .top {
-        width: 480px;
-    }
+  .middle {
+    width: 480px;
+  }
 
-    .middle {
-        width: 480px;
-    }
+  body {
+    background-color: rgb(100, 100, 100);
+  }
 
-    body {
-      background-color: rgb(100, 100, 100);
-    }
-
-    .bottom {
-        width: 480px;
-    }
-
+  .bottom {
+    width: 480px;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .top {
+    width: 350px;
+  }
 
-    .top {
-        width: 350px;
-    }
+  .middle {
+    width: 350px;
+  }
 
-    .middle {
-        width: 350px;
-    }
+  body {
+    background-color: rgb(80, 80, 80);
+  }
 
-    body {
-        background-color: rgb(80, 80, 80);
-    }
-
-    .bottom {
-        width: 350px;
-    }
-
+  .bottom {
+    width: 350px;
+  }
 }
